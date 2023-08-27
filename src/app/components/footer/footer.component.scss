@@ -32,5 +32,16 @@ footer {
       text-align: center;
       color: #ffffff;
     }
+    .developed {
+      @extend .copyright;
+      margin-top: 1.6rem;
+      a {
+        color: #ffffff;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
   }
 }
