@@ -1,6 +1,12 @@
 <div class="container">
-  <img src={{image}} alt="">
-  <span class="type-product"> {{type_product}} </span>
+  <div class="image__container">
+    <img src={{image}} alt="">
+    <div class="flags">
+      <app-flag-device label="PS5"></app-flag-device>
+      <app-flag-device label="PS4"></app-flag-device>
+    </div>
+  </div>
+  <span class="type-product" *ngIf="type_product"> {{type_product}} </span>
   <h3 class="card__title"> {{card_title}} </h3>
   <span class="discount"> {{discount_value}} </span>
   <div class="price__container">

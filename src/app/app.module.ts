@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CardProductComponent } from './components/card-product/card-product.component';
 import { CardCategoriesComponent } from './components/card-categories/card-categories.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FlagDeviceComponent } from './components/flag-device/flag-device.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
     CardBannerComponent,
     CardProductComponent,
     CardCategoriesComponent,
-    FooterComponent
+    FooterComponent,
+    FlagDeviceComponent
   ],
   imports: [
     AppRoutingModule,
