@@ -1,0 +1,50 @@
+.banners {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.products {
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+
+    .offers__title {
+      font-weight: 400;
+      font-size: 2.0rem;
+    }
+    .see-all {
+      font-weight: 600;
+      font-size: 1.6rem;
+      color: #0068bd;
+    }
+  }
+  .cards__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.categories {
+  .cards_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.6rem;
+    margin-top: 6.4rem;
+  }
+  .see-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1.6rem 0 6.4rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color:#0068bd;
+  }
+}

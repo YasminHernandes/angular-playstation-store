@@ -13,8 +13,9 @@ main {
   max-width: 1440px;
   padding: 0 3.2rem;
   margin: 0 auto;
-
-  @media screen and (max-width: 1025.98px) {
+}
+@media screen and (max-width: 1025.98px) {
+  main {
     padding: 0 1.6rem;
   }
-}
+}/*# sourceMappingURL=app.component.css.map */

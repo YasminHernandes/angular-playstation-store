@@ -1,0 +1,36 @@
+footer {
+  padding: 5.0rem 3.2rem;
+  background: #003697;
+
+  .footer__container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .sitemap__container {
+      display: flex;
+      justify-content: space-between;
+      margin: 3.2rem 0;
+
+      ul {
+        li {
+          &:not(:last-child) {
+            margin-bottom: 1.6rem;
+          }
+
+          a {
+            font-weight: 400;
+            font-size: 1.8rem;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+    .copyright {
+      width: 100%;
+      display: block;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+}

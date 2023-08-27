@@ -1,0 +1,16 @@
+<header>
+  <div class="container">
+    <div class="logo__container">
+      <svg-icon src="assets/ps-store.svg" [svgStyle]="{'width.px': 48, 'height.px': 48, 'fill': 'rgb(0 114 206)'}" class="logo"></svg-icon>
+      <svg-icon src="assets/ps-title.svg" [svgStyle]="{'width.px': 150, 'height': 'max-content'}" class="logo__title" ></svg-icon>
+    </div>
+    <nav>
+      <a [routerLink]="['']" class="nav__link">Novidades</a>
+      <a [routerLink]="['']" class="nav__link">Coleções</a>
+      <a [routerLink]="['']" class="nav__link" [ngClass]="linkActive">Ofertas</a>
+      <a [routerLink]="['']" class="nav__link">PS5</a>
+      <a [routerLink]="['']" class="nav__link">Assinaturas</a>
+      <a [routerLink]="['']" class="nav__link">Navegar</a>
+    </nav>
+  </div>
+</header>
